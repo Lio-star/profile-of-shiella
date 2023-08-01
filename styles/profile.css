@@ -37,5 +37,29 @@ nav a{
     background-color: #FFF;
 }
 .banner{
-    padding: 30px 30px 30px 200px;
+    padding: 30px 30px 30px 190px;
+    display: flex;
+    align-items: center;
+    
+   
+}
+.banner .profile-pic{
+    width: 393px;
+    height: 467px;
+}  
+
+
+.banner-getting{
+     color: #3871A7;
+     font-family: Montserrat;
+     font-size: 85px;
+     font-weight: 700;
+
+}
+.banner-description{
+    color: rgba(57, 57, 60, 0.75);
+font-family: Montserrat;
+font-size: 18px;
+font-weight: 400;
+line-height: 30px;
 }
