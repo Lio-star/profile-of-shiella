@@ -54,7 +54,7 @@ nav a{
 .banner .profile-pic{
     width: 390px;
     height: 460px;
-    margin-left: 160px;
+    margin-left: 145px;
     margin-top: 156px;
     position: relative;
 }  
@@ -107,19 +107,19 @@ nav a{
     filter: blur(10px);
     z-index: -1;
     position: absolute;
-    margin-left: 220px;
+    margin-left: 200px;
     margin-top: -490px;
 }
 
 .box-blue{
     width: 383px;
     height: 529px;
-     border-radius: 20px;
+    border-radius: 20px;
     border: 4px solid #3871A7;
     background: rgba(217, 217, 217, 0.00);
     z-index: -2;
     position: absolute;
-    margin-left: 210px;
+    margin-left: 190px;
     margin-top: -500px;
 }
 
