@@ -1,67 +1,123 @@
 
 body{
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
 }
 
 
 /* nav related style*/
 nav{
+    margin-top: 57px;
+    margin-left: 100px;
     display: flex;
-    justify-content: space-between;
-    margin: 0 200px;
 }
 .nav-tittle{
     color: #000;
-font-size: 35px;
-font-weight: 700;
+    font-size: 35px;
+    font-weight: 700;
+    position: relative;
 
 }
  
-nav > ul{
+nav > ul {
+
     display: flex;
     align-items: center;
- }
-
-
-nav > li{
+    margin-left: 700px;
+    position: relative;
     
-    list-style: none;
-    margin-left: 50px;
-    
+}
+nav li {
+   list-style: none;
+   margin-right: 45px;
+   
 }
 nav a{
     text-decoration: none;
-    color:  #3871A7;
+    color: #3871A7;
+    
 }
-.header{
-    background-color: #FFF;
-}
+
+.container {
+    position: relative;
+  }
+
 .banner{
-    padding: 30px 30px 30px 190px;
+    margin-left: 100px;
     display: flex;
     align-items: center;
-    
-    
-   
+    position: relative;  
 }
+
 .banner .profile-pic{
     width: 393px;
     height: 467px;
-    margin-left: 500px;
+    margin-left: 192px;
+    margin-top: 156px;
+    position: relative;
 }  
 
-
 .banner-getting{
-     color: #3871A7;
-     font-family: Montserrat;
-     font-size: 85px;
-     font-weight: 700;
+    margin-top: 308px ;
+    color: #3871A7;
+    font-size: 85px;
+    font-weight: 700;
 
 }
 .banner-description{
     color: rgba(57, 57, 60, 0.75);
-    font-family: Montserrat;
     font-size: 18px;
     font-weight: 400;
+    margin-top: 0px;
     
 }
+
+
+.btn-primary{
+    padding: 10px 35px;
+    border-radius: 8px;
+    background: #3871A7;
+    border-color: #3871A7;
+    border-width: 0.5px;
+    box-shadow: 1px 3px 38px 0px rgba(0, 131, 255, 0.19);
+    font-size: 18px;
+    color: white;
+    font-weight: 600;
+    margin-right: 20px;
+}
+
+.btn-classic{
+    padding: 10px 35px;
+    border-radius: 8px;
+    border-width: 0.5px;
+    background: #ffffff;
+    border-color: #3871A7;
+    font-size: 18px;
+    color: #3871A7;
+    font-weight: 600;
+}
+
+.box-grey{
+    width: 359px;
+    height: 512px;
+    border-radius: 20px;
+    background: #D9D9D9;
+    filter: blur(10px);
+    z-index: -1;
+    position: absolute;
+    margin-left: 264px;
+    margin-top: -497px;
+}
+
+.box-blue{
+    width: 383px;
+    height: 529px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    border: 4px solid #3871A7;
+    background: rgba(217, 217, 217, 0.00);
+    z-index: -2;
+    position: absolute;
+    margin-left: 252px;
+    margin-top: -507px;
+}
+
